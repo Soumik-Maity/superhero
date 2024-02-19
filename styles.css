@@ -130,7 +130,6 @@ p {
 }
 
 input[type="color"] {
-  -webkit-appearance: none;
   border: none;
   background-color: #ffffff;
 }
@@ -176,4 +175,7 @@ input[type="color"]::-webkit-color-swatch {
 }
 #color-container div p {
   font-weight: 600;
+}
+#canvas-instructions img {
+  margin-bottom: 20px;
 }
